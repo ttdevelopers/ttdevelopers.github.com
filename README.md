@@ -1,4 +1,4 @@
-ttDevelopers.
+ttDevelopers.github.com - COMING SOON!
 =======================
 
 We are turntable.fm developers.
