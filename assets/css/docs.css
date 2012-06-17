@@ -1221,7 +1221,7 @@ a.button span.icon.book, button span.icon.book { background-position: 0 0 }
 a.button:hover span.icon.book, button:hover span.icon.book { background-position: 0 -15px }
 a.button span.icon.calendar, button span.icon.calendar { background-position: 0 -30px }
 a.button:hover span.icon.calendar, button:hover span.icon.calendar { background-position: 0 -45px }
-a.button span.icon.chat, button span.icon.chat { background-position: 0 -60px }
+a.button span.icon.chat, button span.icon.chat { background-position: 0 -60px } 
 a.button:hover span.icon.chat, button:hover span.icon.chat { background-position: 0 -75px }
 a.button span.icon.check, button span.icon.check { background-position: 0 -90px }
 a.button:hover span.icon.check, button:hover span.icon.check { background-position: 0 -103px }
