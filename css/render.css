@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* {wrapbootstrap} - Portfolio Igniter 1.1*/
+
+h1, h2 {
+	color:#FFF;
+}
+.footer {
+	padding: 14px 15px 15px;
+	margin-bottom: 0;
+}
+body * {
+	font-family: 'Lato', sans-serif;
+}
+p {
+	font-weight:300;
+	font-size:14pt;
+	line-height:20pt;
+}
+h1 {
+	font-size:48pt;
+	font-weight:100;
+	line-height:60pt;
+}
+p a {
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+p a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+p a.btn {
+	text-decoration:none!important;
+}
+
+
+/* colors */
+
+h1 {color:#FFFFFF;}
+h2 {color:#FFFFFF;}
+h3 {color:#FFFFFF;}
+h4 {color:#FFFFFF;}
+h5 {color:#FFFFFF;}
+h6 {color:#FFFFFF;}
+p {color:#FFFFFF;}
+
+.navbar-fixed-top {
+position:fixed;
+margin-bottom: 18px;
+}
+
+/* footer */
+.footer {
+	background:#333333;
+}
+.footer p {font-size:11pt;}
+.footer p, .footer h1, .footer h2, .footer h3, .footer h4, .footer h5, footer h6 {
+	color:#FFFFFF;
+}
+
+/* elements */
+span.rnd {
+	font-size: 14px;
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	width: 44px;
+	height: 44px;
+	text-indent: 8px;
+	line-height: 44px;
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 2px;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-weight:800;
+	font-style: italic;
+	text-shadow: 1px 2px 0 rgba(0,0,0,0.075);
+	-webkit-box-shadow: 1px 2px 0 0 rgba(0,0,0,0.075);
+	-moz-box-shadow: 1px 2px 0 0 rgba(0,0,0,0.075);
+}
+
+.story {
+	margin: 0 auto;
+	margin-top:60px;
+}
+
+
+/* pages */
+#home {
+	background:url(firstBG.jpg) 50% -75px no-repeat fixed;
+	color: white;
+	height: 1200px;
+	padding: 160px 0 0 0;
+}
+#second {
+	background: url(secondBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1300px;
+	margin: 0 auto;
+	overflow:hidden;
+	padding: 0;
+}
+
+#third {
+	background: #333;
+	margin: 0 auto;
+	padding: 40px 0 200px 0;
+}
+#third p, #third h1, #third h2, #third h3, #third h4, #third h5, #third h6 {color:#FFFFFF;}
+#third h2 {font-weight:300;}
+
+#fourth {
+	background: url(thirdBG.jpg) 50% 0 no-repeat fixed;
+	color: white;
+	height: 1200px;
+	padding: 100px 0 0 0;
+}
+#fifth {
+	background: #8c31b7;
+	height: 800px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+
+/* objects */
+
+/* 
+you can add floating object in to design :
+
+<div class="bg"></div>
+<div class="bg2"></div>
+
+note : this will break bootstrap fluid and responsive.css
+*/
+
+.bg {
+	background: url(../assets/objects.png) top left no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto;
+	padding: 0px;
+	position: absolute;
+	left:0px;
+	;
+	width: 800px;
+	z-index: 1;
+	overflow:hidden;
+}
+.bg2 {
+	background: url(../assets/objects2.png) top left no-repeat fixed;
+	height: 1400px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	left:-5px;
+	width: 1200px;
+	z-index: 1;
+	overflow:hidden;
+	top: 1379px;
+}
